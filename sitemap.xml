@@ -1,14 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://tj8295.github.io/blog/2013/12/13/first-post/</loc>
-        <lastmod>2013-12-14T02:46:27-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://tj8295.github.io/blog/2013/12/14/first-post/</loc>
-        <lastmod>2013-12-14T02:18:06-05:00</lastmod>
-    </url>
-    <url>
         <loc>http://tj8295.github.io/blog/2013/12/14/rvm-rvmrc-to-dot-ruby-version/</loc>
         <lastmod>2013-12-14T08:16:35-05:00</lastmod>
     </url>
