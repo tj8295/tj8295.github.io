@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | TJH Blog]]></title>
   <link href="http://tj8295.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://tj8295.github.io/"/>
-  <updated>2013-12-14T08:20:02-05:00</updated>
+  <updated>2013-12-14T11:41:55-05:00</updated>
   <id>http://tj8295.github.io/</id>
   <author>
     <name><![CDATA[TJH]]></name>
@@ -22,7 +22,7 @@
 
 <p><em>You are using &lsquo;.rvmrc&rsquo;, it requires trusting, it is slower and it is not compatible with other ruby managers, you can switch to &lsquo;.ruby-version&rsquo; using &lsquo;rvm rvmrc to [.]ruby-version&rsquo; or ignore this warning.</em></p>
 
-<p>After a quick check on stackoverflow I found the following:
+<p>After a search on stackoverflow I found the following:
 <a href="http://stackoverflow.com/questions/15708916/use-rvmrc-or-ruby-version-file-to-set-a-project-gemset-with-rvm">http://stackoverflow.com/questions/15708916/use-rvmrc-or-ruby-version-file-to-set-a-project-gemset-with-rvm</a></p>
 
 <p>It seems that when only the ruby version and gemset need to be specified for a project, the preferred method is to specify a .ruby-version file, and if a specific gemset is needed, a .ruby-gemset file.</p>
