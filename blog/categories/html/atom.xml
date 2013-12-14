@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Html | TJH Blog]]></title>
+  <link href="http://tj8295.github.io/blog/categories/html/atom.xml" rel="self"/>
+  <link href="http://tj8295.github.io/"/>
+  <updated>2013-12-14T03:45:21-05:00</updated>
+  <id>http://tj8295.github.io/</id>
+  <author>
+    <name><![CDATA[TJH]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://tj8295.github.io/blog/2013/12/13/first-post/"/>
+    <updated>2013-12-13T18:53:45-05:00</updated>
+    <id>http://tj8295.github.io/blog/2013/12/13/first-post</id>
+    <content type="html"><![CDATA[<p>This is the first blog post in octopress.</p>
+]]></content>
+  </entry>
+  
+</feed>
