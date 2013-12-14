@@ -1,15 +1,12 @@
 ---
 layout: page
-title: ".markdown"
+title: "Markdown"
 date: 2013-12-14 11:45
 comments: true
 sharing: true
 footer: true
 ---
-
-#Markdown
-
-Pages in Octopress are by default .markdown. 
+Pages in Octopress are by default appended with the .markdown extension. 
 
 > Markdown is a plain text formatting syntax designed so that it can optionally be converted to HTML using a tool by the same name. Markdown is popularly used as format for readme files, or for writing messages in online discussion forums.  - Wikipedia
 
