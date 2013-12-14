@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | TJH Blog]]></title>
   <link href="http://tj8295.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://tj8295.github.io/"/>
-  <updated>2013-12-14T06:26:28-05:00</updated>
+  <updated>2013-12-14T08:16:47-05:00</updated>
   <id>http://tj8295.github.io/</id>
   <author>
     <name><![CDATA[TJH]]></name>
@@ -18,25 +18,21 @@
     <link href="http://tj8295.github.io/blog/2013/12/14/rvm-rvmrc-to-dot-ruby-version/"/>
     <updated>2013-12-14T03:40:23-05:00</updated>
     <id>http://tj8295.github.io/blog/2013/12/14/rvm-rvmrc-to-dot-ruby-version</id>
-    <content type="html"><![CDATA[<p>Last time I used rvm, 2012, the preferred method of ensuring a project had access to a specific ruby version and gemset was to put a .rvmrc file in the folder that specified the ruby version and gemset.</p>
+    <content type="html"><![CDATA[<p>Today when I brought up Terminal and entered a folder with a .rvmrc file I got the following warning:</p>
 
-<p>This time when I added this file to my project and entered into the directory in terminal I received the following message:</p>
+<p><em>You are using &lsquo;.rvmrc&rsquo;, it requires trusting, it is slower and it is not compatible with other ruby managers, you can switch to &lsquo;.ruby-version&rsquo; using &lsquo;rvm rvmrc to [.]ruby-version&rsquo; or ignore this warning.</em></p>
 
-<p>You are using &lsquo;.rvmrc&rsquo;, it requires trusting, it is slower and it is not compatible with other ruby managers,</p>
+<p>After a quick check on stackoverflow I found the following:
+<a href="http://stackoverflow.com/questions/15708916/use-rvmrc-or-ruby-version-file-to-set-a-project-gemset-with-rvm">http://stackoverflow.com/questions/15708916/use-rvmrc-or-ruby-version-file-to-set-a-project-gemset-with-rvm</a></p>
 
-<p>you can switch to &lsquo;.ruby-version&rsquo; using &lsquo;rvm rvmrc to [.]ruby-version&rsquo;</p>
-
-<p>or ignore this warning with &lsquo;rvm rvmrc warning ignore /Users/Tom/rails_3_tutorial/.rvmrc&rsquo;,</p>
-
-<p>&lsquo;.rvmrc&rsquo; will continue to be the default project file in RVM 1 and RVM 2,</p>
-
-<p>to ignore the warning for all files run &lsquo;rvm rvmrc warning ignore all.rvmrcs’.</p>
-
-<!--more-->
-
+<p>It seems that when only the ruby version and gemset need to be specified for a project, the preferred method is to specify a .ruby-version file, and if a specific gemset is needed, a .ruby-gemset file.</p>
 
 <p>Notes:
-You can read about .rvmrc files and how to use them here:
+I am using Ruby version 2.</p>
+
+<p>The use of .ruby-version and .ruby-gemset may not be compatible with some programs.</p>
+
+<p>Information about .rvmrc files:
 external-url: <a href="https://rvm.io/workflow/rvmrc">https://rvm.io/workflow/rvmrc</a></p>
 ]]></content>
   </entry>
